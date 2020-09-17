@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+// Core react imports
+import React from "react";
+// Routing imports
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// Component imports
+import FAQ from "./components/FAQ";
+import CONTACT from "./components/CONTACT";
+import LANDING from "./components/LANDING";
+// Css imports
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+// Main functional component
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/faq">
+          <FAQ />
+        </Route>
+        <Route path="/contact">
+          <CONTACT />
+        </Route>
+        <Route path="/">
+          <LANDING />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
-
+// Exporting main functional component
 export default App;

@@ -29,7 +29,11 @@ export default function Footer() {
             lg={2}
             className="text-right"
           >
-            <a href="https://www.facebook.com/" target="_blank">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"
@@ -56,7 +60,11 @@ export default function Footer() {
             </a>
           </Col>
           <Col xs={6} sm={4} md={3} lg={2}>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="46"

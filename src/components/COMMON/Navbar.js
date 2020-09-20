@@ -31,35 +31,35 @@ export default function NAVBAR({ activatedLink }) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav className="nav-grp">
-              <Link to="/">
-                <Nav.Link className={activatedLink === "home" ? "active" : ""}>
+              <Nav.Link className={activatedLink === "home" ? "active" : ""}>
+                <Link to="/">
                   <span
                     className={activatedLink === "home" ? "active-span" : ""}
                   >
                     HOME
                   </span>
-                </Nav.Link>
-              </Link>
-              <Link to="/faq">
-                <Nav.Link className={activatedLink === "faq" ? "active" : ""}>
+                </Link>
+              </Nav.Link>
+
+              <Nav.Link className={activatedLink === "faq" ? "active" : ""}>
+                <Link to="/faq">
                   <span
                     className={activatedLink === "faq" ? "active-span" : ""}
                   >
                     FAQS
                   </span>
-                </Nav.Link>
-              </Link>
-              <Link to="/contact">
-                <Nav.Link
-                  className={activatedLink === "contact" ? "active" : ""}
-                >
+                </Link>
+              </Nav.Link>
+
+              <Nav.Link className={activatedLink === "contact" ? "active" : ""}>
+                <Link to="/contact">
                   <span
                     className={activatedLink === "contact" ? "active-span" : ""}
                   >
                     CONTACT
                   </span>
-                </Nav.Link>
-              </Link>
+                </Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <Link to="/">

@@ -1,13 +1,28 @@
+/* Importing main font */
+@font-face {
+  font-family: "geomanist";
+  src: local("geomanist"),
+    url(./Geomanist-Regular&Italic/Webfont/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff)
+      format("woff");
+}
 /* Root css configuration */
 :root {
   box-sizing: border-box;
   --color-primary: #633490;
   font-family: "geomanist" !important;
 }
+body {
+  font-family: "geomanist" !important;
+}
 /* Elements custom */
 h1 {
   font-size: 140px !important;
   color: #a75fb4 !important;
+}
+.h1-after::after {
+  content: url(/cursor%201.png);
+  margin-left: 2vw;
+  height: 140px;
 }
 h2 {
   font-size: 70px !important;
@@ -87,20 +102,13 @@ hr {
   font-size: 14px;
   color: #c7c5c7;
 }
-/* Importing main font */
-@font-face {
-  font-family: "geomanist";
-  src: local("geomanist"),
-    url(./Geomanist-Regular&Italic/Webfont/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff)
-      format("woff");
-}
 /* Custom nav bar css */
 .navbar-brand {
   padding-left: 8vw !important;
-  padding-top: 4vh !important;
+  padding-top: 2vh !important;
 }
 .nav-link {
-  margin-top: 4vh !important;
+  margin-top: 2vh !important;
   margin-right: 1vw !important;
 }
 .nav-grp {
@@ -205,4 +213,16 @@ hr {
 }
 .contact-btn > span {
   padding: 1vh 2vw !important;
+}
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  .h1-after::after {
+    content: url(/cursor%201.png);
+    margin-left: 2vw;
+    height: 30px;
+    object-fit: cover;
+  }
 }

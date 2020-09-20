@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default function Second() {
   return (
@@ -11,7 +11,6 @@ export default function Second() {
       />
       <Container>
         <h1 class="margin-top-120 text-center h1-after">Design Fearlessly</h1>
-        
       </Container>
     </>
   );

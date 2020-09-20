@@ -27,7 +27,7 @@ export default function Content() {
     <>
       {data.map((entry) => (
         <div className="margin-top-56">
-          <h3>{entry.question}</h3>
+          <p className="p1 bold">{entry.question}</p>
           <p className="margin-top-24">{entry.answer}</p>
         </div>
       ))}

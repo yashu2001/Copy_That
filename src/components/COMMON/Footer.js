@@ -21,13 +21,13 @@ export default function Footer() {
             />
           </svg>
           <Link to="/contact">
-            <p class="footer-link">CONTACT</p>
+            <p className="footer-link">CONTACT</p>
           </Link>
           <Link to="/faq">
-            <p class="footer-link">FAQS</p>
+            <p className="footer-link">FAQS</p>
           </Link>
           <Link to="/">
-            <p class="footer-link">HOME</p>
+            <p className="footer-link">HOME</p>
           </Link>
         </Col>
         <Col xs={{ span: 6 }} className="lift-me-up">

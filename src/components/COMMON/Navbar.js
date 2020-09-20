@@ -40,7 +40,7 @@ export default function NAVBAR({ activatedLink }) {
                 </span>
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="faq"
                 className={activatedLink === "faq" ? "active" : ""}
               >
                 <span className={activatedLink === "faq" ? "active-span" : ""}>

@@ -5,7 +5,7 @@ import Footer from "../COMMON/Footer";
 export default function Index() {
   return (
     <>
-      <Navbar />
+      <Navbar activatedLink="faq" />
       <Center />
       <Footer />
     </>

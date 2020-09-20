@@ -49,13 +49,23 @@ h6 {
 label {
   display: block !important;
 }
-input,textarea {
+input,
+textarea {
   border: none;
   border-bottom: 2px solid #707070;
   width: 100% !important;
 }
-textarea{
+input:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000000 !important;
+}
+textarea {
   resize: none !important;
+}
+hr {
+  background-color: #000000;
 }
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -175,4 +185,24 @@ textarea{
 /* Utilities */
 .bold {
   font-weight: bold;
+}
+.contact-btn {
+  background-color: #ffffff !important;
+  box-shadow: #efd356 16% !important;
+  border-color: #efd356 !important;
+  border-radius: 3px;
+}
+.contact-btn:hover {
+  background-color: #efd356 !important;
+}
+.contact-btn:active {
+  background-color: #707070 !important;
+  background-origin: #c7c5c7 16% !important;
+  border-color: #c7c5c7 !important;
+}
+.contact-btn:active > span {
+  color: #ffffff !important;
+}
+.contact-btn > span {
+  padding: 1vh 2vw !important;
 }

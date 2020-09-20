@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../COMMON/Navbar";
 import Center from "./CENTER";
-import Footer from "./Footer";
+import Footer from "../COMMON/Footer";
 export default function Index() {
   return (
     <>

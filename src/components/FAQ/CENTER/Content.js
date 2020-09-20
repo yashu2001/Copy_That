@@ -26,10 +26,10 @@ export default function Content() {
   return (
     <>
       {data.map((entry) => (
-        <>
+        <div className="margin-top-56">
           <h3>{entry.question}</h3>
-          <p>{entry.answer}</p>
-        </>
+          <p className="margin-top-24">{entry.answer}</p>
+        </div>
       ))}
     </>
   );

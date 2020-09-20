@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Button } from "react-bootstrap";
-export default function Nav() {
+import { Navbar, Nav, Button } from "react-bootstrap";
+export default function NAVBAR() {
   return (
     <>
-      <Navbar className="justify-content-between">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="justify-content-between shadow"
+      >
         <Link to="/">
           <Navbar.Brand>
             <svg
@@ -23,11 +27,25 @@ export default function Nav() {
             </svg>
           </Navbar.Brand>
         </Link>
-        <Link to="/">
-          <Button size="sm" className="primary-button">
-              REQUEST DEMO NOW
-          </Button>
-        </Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav className="nav-grp">
+              <Nav.Link href="/">HOME</Nav.Link>
+              <Nav.Link href="#" className="active">
+                <span className="active-span">FAQS</span>
+              </Nav.Link>
+              <Nav.Link href="/contact">CONTACT</Nav.Link>
+            </Nav>
+            <Nav>
+              <Link to="/">
+                <Button size="sm" className="primary-button">
+                  REQUEST DEMO NOW
+                </Button>
+              </Link>
+            </Nav>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     </>
   );

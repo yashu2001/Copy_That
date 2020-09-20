@@ -11,10 +11,28 @@
     url(./Geomanist-Regular&Italic/Webfont/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff)
       format("woff");
 }
-/* Custom nav brand css */
+/* Custom nav bar css */
 .navbar-brand {
   padding-left: 8vw !important;
   padding-top: 4vh !important;
+}
+.nav-link {
+  margin-top: 4vh !important;
+  margin-right: 1vw !important;
+}
+.nav-grp {
+  margin-right: 3vw !important;
+}
+.active-span {
+  box-sizing: content-box;
+  border-top: 4px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(239, 204, 86, 1) 0%,
+    rgba(239, 204, 86, 1) 45%,
+    rgba(248, 248, 248, 1) 35%
+  );
+  border-image-slice: 1;
 }
 /* Request a demo button css */
 .primary-button {
@@ -28,13 +46,22 @@
   border-bottom-right-radius: 50px !important;
   border-top-left-radius: 50px !important;
   border-bottom-left-radius: 50px !important;
-  box-shadow: 0px 16px 20px #795b964d;
-  opacity: 1;
+  box-shadow: 0px 2px 4px #633490 30% !important;
+  opacity: 1 !important;
+}
+.primary-button:hover {
+  box-shadow: 0px 4px 12px #6840ad 30% !important;
+  border-color: #562783 !important;
+  background-color: #7a29c7 !important;
+}
+.primary-button:active {
+  box-shadow: 0px 2px 4px #904ad4 30% !important;
+  border-color: #7a29c7 !important;
 }
 /* Footer css */
 .footer {
   max-width: 100vw !important;
-  min-height: 40vh;
+  min-height: 50vh;
   background: transparent
     linear-gradient(
       303deg,
@@ -47,4 +74,25 @@
     linear-gradient(303deg, #9656a2 0%, #633490 27%, #34194d 100%) 0% 0%
     no-repeat padding-box;
   opacity: 1;
+}
+.footer-link {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.lift-me-up {
+  margin-top: -10vh;
+}
+/* Custom margin */
+.margin-top-120 {
+  margin-top: 120px !important;
+}
+.margin-top-56:first-child {
+  margin-top: 56px !important;
+}
+.margin-top-24 {
+  margin-top: 24px !important;
+}
+.margin-top-56 {
+  margin-top: 48px !important;
 }

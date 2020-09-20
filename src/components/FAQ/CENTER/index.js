@@ -5,7 +5,7 @@ import Content from "./Content";
 export default function index() {
   return (
     <>
-      <Container className="mt-5">
+      <Container className="margin-top-120">
         <Header />
         <Content />
       </Container>

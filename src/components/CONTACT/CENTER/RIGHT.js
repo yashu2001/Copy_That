@@ -8,7 +8,7 @@ export default function RIGHT() {
   const [message, setMessage] = useState("");
   return (
     <>
-      <h4>Let’s Design Copy, Faster</h4>
+      <h4 className="bold">Let’s Design Copy, Faster</h4>
       <form className="margin-top-120">
         <Row className="justify-content-space-between">
           <Col xs={5}>
@@ -77,7 +77,7 @@ export default function RIGHT() {
           </Col>
         </Row>
       </form>
-      <hr className="margin-top-56 p-0" />
+      <div className="margin-top-56 p-0"></div>
       <Row className="justify-content-end">
         <button className="contact-btn margin-top-56">
           <span className="p4">SEND</span>

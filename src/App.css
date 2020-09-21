@@ -121,6 +121,7 @@ textarea {
   margin-right: 3vw !important;
 }
 .active-span {
+  padding-top: 1vh !important;
   box-sizing: content-box;
   border-top: 4px solid;
   border-image-source: linear-gradient(

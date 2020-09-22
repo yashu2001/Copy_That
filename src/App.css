@@ -219,6 +219,8 @@ textarea {
   box-shadow: #efd356 16% !important;
   border-color: #efd356 !important;
   border-radius: 3px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .contact-btn:hover {
   background-color: #efd356 !important;
@@ -232,7 +234,10 @@ textarea {
   color: #ffffff !important;
 }
 .contact-btn > span {
-  padding: 1vh 2vw !important;
+  margin-top: 2vh !important;
+  margin-right: 2vw !important;
+  margin-left: 2vw !important;
+  margin-bottom: 2vh !important;
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {

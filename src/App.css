@@ -14,6 +14,10 @@
 body {
   font-family: "geomanist" !important;
 }
+img.gif {
+  object-fit: cover !important;
+  width: 100%;
+}
 /* Elements custom */
 h1 {
   font-size: 140px !important;
@@ -268,5 +272,14 @@ textarea {
   }
   .h1-after::after {
     content: "";
+  }
+  .contain-65 {
+    width: 95% !important;
+  }
+  .contain-50 {
+    width: 95% !important;
+  }
+  .contain-90 {
+    width: 95% !important;
   }
 }

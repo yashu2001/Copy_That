@@ -202,6 +202,9 @@ textarea {
 .contain-65 {
   width: 65% !important;
 }
+.contain-50 {
+  width: 50% !important;
+}
 .contain-90 {
   width: 90% !important;
 }
@@ -238,6 +241,25 @@ textarea {
   margin-right: 2vw !important;
   margin-left: 2vw !important;
   margin-bottom: 2vh !important;
+}
+/* Section Header */
+.section-header {
+  background: transparent linear-gradient(280deg, #814cb4 0%, #ad74b7 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  width: 100% !important;
+}
+.position-overlay {
+  padding-top: 3vh;
+  margin-left: -4vw;
+}
+.section-title {
+  color: #f6f5f5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-size: 45px;
+  margin-bottom: 0 !important;
+  margin-top: 6vh !important;
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {

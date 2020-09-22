@@ -25,7 +25,7 @@ export default function Second() {
           </p>
         </div>
       </Container>
-      <div class="contain-90 mx-auto margin-top-56">
+      <div className="contain-90 mx-auto margin-top-56">
         <Row>
           <Col xs={12} sm={12} md={4} className="text-center">
             <img src="/design_icon.png" alt="design icon" />

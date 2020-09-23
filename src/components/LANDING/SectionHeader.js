@@ -85,7 +85,7 @@ export default function SectionHeader(props) {
               </svg>
             </Col>
             <div
-              className="my-auto section-title pl-3"
+              className="my-auto  pl-3"
               style={{ whiteSpace: "no-wrap" }}
             >
               <p className="section-title" style={{ display: "inline-block" }}>

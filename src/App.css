@@ -262,7 +262,7 @@ textarea {
   letter-spacing: 0.9px;
   text-align: left;
   font-size: 45px;
-  margin-top: 6vh !important;
+  margin-top: 8vh !important;
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {

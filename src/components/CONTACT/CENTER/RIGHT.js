@@ -13,9 +13,13 @@ export default function RIGHT() {
   return (
     <>
       <div style={{ position: "relative" }}>
-        <Link to="/">
-          <p className="super"></p>
-        </Link>
+      {isMobile ? (
+          <Link to="/">
+            <p className="super"></p>
+          </Link>
+        ) : (
+          <></>
+        )}
         <h4 className={isMobile ? "text-center bold" : "bold"}>
           <span className={isMobile ? "active-span-header" : ""}>Let's </span>
           Design Copy,Faster

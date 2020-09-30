@@ -6,9 +6,13 @@ export default function Header() {
   return (
     <>
       <div style={{ position: "relative" }}>
-        <Link to="/">
-          <p className="super"></p>
-        </Link>
+        {isMobile ? (
+          <Link to="/">
+            <p className="super"></p>
+          </Link>
+        ) : (
+          <></>
+        )}
         <h4 className={isMobile ? "text-center" : ""}>
           <span className={isMobile ? "active-span-header" : ""}>
             Frequently{" "}

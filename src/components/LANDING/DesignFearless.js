@@ -1,14 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import { useMediaQuery } from "react-responsive";
 export default function Second() {
+  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   return (
     <>
-      <img
-        src="/pattern.png"
-        style={{ width: "98vw", objectFit: "cover" }}
-        alt="this is not available"
-      />
+      {isMobile ? (
+        <></>
+      ) : (
+        <img
+          src="/pattern.png"
+          style={{ width: "98vw", objectFit: "cover" }}
+          alt="this is not available"
+        />
+      )}
       <Container>
         <h1 className="margin-top-120 text-center h1-after">
           <span style={{ color: "#904ad4" }}>Design </span>

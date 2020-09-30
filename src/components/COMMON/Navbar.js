@@ -9,6 +9,7 @@ export default function NAVBAR({ activatedLink }) {
         expand="lg"
         className="justify-content-between shadow"
       >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Link to="/">
           <Navbar.Brand>
             <svg
@@ -27,7 +28,6 @@ export default function NAVBAR({ activatedLink }) {
             </svg>
           </Navbar.Brand>
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav className="nav-grp">

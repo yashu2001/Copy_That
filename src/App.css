@@ -39,7 +39,7 @@ h3 {
 }
 h4 {
   font-size: 40px !important;
-  color: #444445 !important;
+  color: #632E96 !important;
 }
 h5 {
   font-size: 40px !important;
@@ -136,6 +136,12 @@ textarea {
     #ffffff 100%
   );
   border-image-slice: 1;
+}
+.navbar-toggler-icon {
+  background-image: url("/Hamburger icon.svg") !important;
+}
+.navbar-toggler.collapsed {
+  border: none !important;
 }
 /* Request a demo button css */
 .primary-button {
@@ -245,6 +251,9 @@ textarea {
   margin-right: 2vw !important;
   margin-left: 2vw !important;
   margin-bottom: 2vh !important;
+}
+.highlight {
+  color: #b561e2;
 }
 /* Section Header */
 .section-header {

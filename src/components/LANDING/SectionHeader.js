@@ -8,7 +8,7 @@ export default function SectionHeader(props) {
       <Container>
         <div className="contain-50 mx-auto">
           <Row>
-            <Col xs={4} className="my-auto" style={{ zIndex: 100 }}>
+            <Col xs={5} md={4} className="my-auto" style={{ zIndex: 100 }}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="214"

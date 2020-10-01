@@ -5,6 +5,8 @@ import Second from "./DesignFearless";
 import SectionHeader from "./SectionHeader";
 import GifPlayer from "./GifPlayer";
 import Hero from "./Hero";
+import WriterFeatures from "./WriterFeatures";
+import DesignerFeatures from "./DesignerFeatures";
 import { useMediaQuery } from "react-responsive";
 export default function Index() {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
@@ -14,8 +16,12 @@ export default function Index() {
       {isMobile ? <></> : <Hero />}
       <Second />
       <SectionHeader title="Writers" />
+      <WriterFeatures />
+      <div style={{ height: "150px" }}></div>
       <GifPlayer title="writer" />
       <SectionHeader title="Designers" />
+      <DesignerFeatures />
+      <div style={{ height: "150px" }}></div>
       <GifPlayer title="designer" />
       <Footer />
     </>

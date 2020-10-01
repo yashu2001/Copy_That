@@ -15,24 +15,21 @@ export default function Index() {
       title: "Dedicated workspace",
       text:
         "A dedicated work space for all edits and content creation which eliminates the need for multiple files.",
-      srcset: "/MobileEditorList.png,/MobileEditorList@2x.png 2x",
-      src: "/MobileEditorList.png",
+      src: "/Dedicated workspace.svg",
       alt: "editor list",
     },
     {
       title: "Preview copy in real time",
       text:
         "Visualize and preview copy in real time making edits, feedback, and content creation seamless.",
-      srcset: "/writer_preview.png,/writer_preview@2x.png 2x",
-      src: "/writer_preview.png",
+      src: "/Preview copy_in_real_time.svg",
       alt: "writer preview",
     },
     {
       title: "One click content handoff",
       text:
         "Handoff copy with one click of a button. Once synced the content is available for immediate review and design updates.",
-      srcset: "/Handoff.png,/Handoff@2x.png 2x",
-      src: "/Handoff.png",
+      src: "/One Click Handoff.svg",
       alt: "editor list",
     },
   ];
@@ -41,24 +38,21 @@ export default function Index() {
       title: "Automatically sync copy",
       text:
         "Copy is automatically synced back to the original artboards allowing for an instant review and approval.",
-      srcset: "/Sync.png,/Sync@2x.png 2x",
-      src: "/Sync.png",
+      src: "/Sync copy.svg",
       alt: "editor list",
     },
     {
       title: "Track progress",
       text:
         "From the beginning to the end of the project each collaborator will have access and ability to review the progress of the design.",
-      srcset: "/track_progress.png,/track_progress@2x.png 2x",
-      src: "/track_progress.png",
+      src: "/Track Progress.svg",
       alt: "Track progress",
     },
     {
       title: "Request Copy",
       text:
         "To request copy simply select the requested text objects within the design file and submit to the writer for editing and content development.",
-      srcset: "/Request.png,/Request@2x.png 2x",
-      src: "/Request.png",
+      src: "/Request Copy.svg",
       alt: "Request Copy",
     },
   ];

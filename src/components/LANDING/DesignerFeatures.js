@@ -8,7 +8,7 @@ export default function WriterFeatures() {
         style={{ position: "relative" }}
       >
         <div className="contain-50 mx-auto">
-          <img className="gif" src="/artboard.png" alt="features backdrop" />
+          <img className="gif" src="/artboard.svg" alt="features backdrop" />
         </div>
         <div
           style={{
@@ -28,8 +28,7 @@ export default function WriterFeatures() {
             </Col>
             <Col xs={3} className="full-height">
               <img
-                srcSet="/autoSync.png,autoSync@2x.png 2x"
-                src="/autoSync.png"
+                src="/autosync.svg"
                 className="gif"
                 alt="auto sync"
               />
@@ -40,16 +39,14 @@ export default function WriterFeatures() {
             >
               <Row style={{ height: "50%" }}>
                 <img
-                  srcSet="/trackProgress.png,trackProgress@2x.png 2x"
-                  src="/trackProgress.png"
+                  src="/trackProgress.svg"
                   alt="track progress"
                   className="gif"
                 />
               </Row>
               <Row style={{ height: "50%" }}>
                 <img
-                  srcSet="/requestCopy.png,requestCopy@2x.png 2x"
-                  src="/requestCopy.png"
+                  src="/requestCopy.svg"
                   alt="Request a copy"
                   className="gif"
                   style={{ marginTop: "4vh" }}

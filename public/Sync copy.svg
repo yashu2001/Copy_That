@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351" height="521" viewBox="0 0 351 521">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_148223" data-name="Rectangle 148223" width="351" height="521" transform="translate(48 183)" fill="rgba(237,20,20,0.5)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_68042" data-name="Mask Group 68042" transform="translate(-48 -183)" clip-path="url(#clip-path)">
+    <g id="Group_73378" data-name="Group 73378">
+      <g id="Plugin_Panel" data-name="Plugin Panel" transform="translate(-67.998 -1499)">
+        <g id="Group_66985" data-name="Group 66985" transform="translate(115.999 1549)">
+          <rect id="Rectangle_147798" data-name="Rectangle 147798" width="348.999" height="1030" transform="translate(1.001)" fill="#f5f5f5"/>
+          <path id="Path_36110" data-name="Path 36110" d="M0,1146.679Z" transform="translate(74.651 -1071.406)" fill="#d5d5d5"/>
+          <text id="PLUGINS" transform="translate(33.449 25.98)" fill="#8e8e8e" font-size="11" font-family="Helvetica"><tspan x="0" y="0">PLUGINS</tspan></text>
+          <path id="Path_36112" data-name="Path 36112" d="M0,0,4.843,4.843,0,9.686" transform="translate(19.344 26.554) rotate(180)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="2"/>
+          <circle id="Ellipse_20219" data-name="Ellipse 20219" cx="1.543" cy="1.543" r="1.543" transform="translate(315.374 62.92)" fill="#8e8e8e"/>
+          <circle id="Ellipse_20220" data-name="Ellipse 20220" cx="1.543" cy="1.543" r="1.543" transform="translate(320.001 62.92)" fill="#8e8e8e"/>
+          <circle id="Ellipse_20221" data-name="Ellipse 20221" cx="1.543" cy="1.543" r="1.543" transform="translate(324.63 62.92)" fill="#8e8e8e"/>
+          <text id="CopyThat" transform="translate(14.001 68.091)" fill="#707070" font-size="11" font-family="Helvetica"><tspan x="0" y="0">CopyThat</tspan></text>
+        </g>
+        <line id="Line_29" data-name="Line 29" x2="324.491" transform="translate(128 2118)" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+      </g>
+      <g id="Artboard_B" data-name="Artboard B" transform="translate(60 541)">
+        <g id="Group_67958" data-name="Group 67958">
+          <rect id="Canvas" width="18" height="18" fill="#ff13dc" opacity="0"/>
+          <path id="Path_36671" data-name="Path 36671" d="M4,4.5v12a.5.5,0,0,0,.5.5h12a.5.5,0,0,0,.5-.5V7.457a.5.5,0,0,0-.146-.353L13.9,4.146A.5.5,0,0,0,13.543,4H4.5A.5.5,0,0,0,4,4.5ZM16,16H5V5h8V7.5a.5.5,0,0,0,.5.5H16Z" fill="#707070"/>
+          <rect id="Rectangle_147953" data-name="Rectangle 147953" width="1" height="3" transform="translate(4)" fill="#707070"/>
+          <rect id="Rectangle_147954" data-name="Rectangle 147954" width="3" height="1" transform="translate(0 4)" fill="#707070"/>
+        </g>
+        <text id="Artboard_B-2" data-name="Artboard B" transform="translate(26 16)" fill="#3f3f3f" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Artboard B</tspan></text>
+      </g>
+      <g id="Artboard_C" data-name="Artboard C" transform="translate(60 571)">
+        <g id="Group_67960" data-name="Group 67960">
+          <rect id="Canvas-2" data-name="Canvas" width="18" height="18" fill="#ff13dc" opacity="0"/>
+          <path id="Path_36671-2" data-name="Path 36671" d="M4,4.5v12a.5.5,0,0,0,.5.5h12a.5.5,0,0,0,.5-.5V7.457a.5.5,0,0,0-.146-.353L13.9,4.146A.5.5,0,0,0,13.543,4H4.5A.5.5,0,0,0,4,4.5ZM16,16H5V5h8V7.5a.5.5,0,0,0,.5.5H16Z" fill="#707070"/>
+          <rect id="Rectangle_147953-2" data-name="Rectangle 147953" width="1" height="3" transform="translate(4)" fill="#707070"/>
+          <rect id="Rectangle_147954-2" data-name="Rectangle 147954" width="3" height="1" transform="translate(0 4)" fill="#707070"/>
+        </g>
+        <text id="Artboard_C-2" data-name="Artboard C" transform="translate(26 16)" fill="#3f3f3f" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Artboard C</tspan></text>
+      </g>
+      <g id="Targeted_text_object_layer" data-name="Targeted text object layer" transform="translate(49 293)">
+        <rect id="Rectangle_147955" data-name="Rectangle 147955" width="349" height="237" rx="2" transform="translate(0)" fill="#fff"/>
+        <g id="Group_67957" data-name="Group 67957" transform="translate(38 70)">
+          <rect id="Canvas-3" data-name="Canvas" width="13" height="13" fill="#c4c4c4" opacity="0"/>
+          <path id="Path_36672" data-name="Path 36672" d="M2.321,2A.321.321,0,0,0,2,2.321V4.25a.321.321,0,0,0,.321.321h.643a.321.321,0,0,0,.321-.321V3.286H5.857V9.714H4.893a.321.321,0,0,0-.321.321v.643A.321.321,0,0,0,4.893,11H8.107a.321.321,0,0,0,.321-.321v-.643a.321.321,0,0,0-.321-.321H7.143V3.286H9.714V4.25a.321.321,0,0,0,.321.321h.643A.321.321,0,0,0,11,4.25V2.321A.321.321,0,0,0,10.679,2Z" fill="#c4c4c4"/>
+        </g>
+        <g id="Group_68011" data-name="Group 68011" transform="translate(12 7)">
+          <g id="Group_67955" data-name="Group 67955">
+            <rect id="Canvas-4" data-name="Canvas" width="18" height="18" fill="#ff13dc" opacity="0"/>
+            <path id="Path_36671-3" data-name="Path 36671" d="M4,4.5v12a.5.5,0,0,0,.5.5h12a.5.5,0,0,0,.5-.5V7.457a.5.5,0,0,0-.146-.353L13.9,4.146A.5.5,0,0,0,13.543,4H4.5A.5.5,0,0,0,4,4.5ZM16,16H5V5h8V7.5a.5.5,0,0,0,.5.5H16Z" fill="#707070"/>
+            <rect id="Rectangle_147953-3" data-name="Rectangle 147953" width="1" height="3" transform="translate(4)" fill="#707070"/>
+            <rect id="Rectangle_147954-3" data-name="Rectangle 147954" width="3" height="1" transform="translate(0 4)" fill="#707070"/>
+          </g>
+          <text id="Artboard_A" data-name="Artboard A" transform="translate(26.002 16)" fill="#3f3f3f" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Artboard A</tspan></text>
+        </g>
+        <text id="Text_object_2" data-name="Text object 2" transform="translate(59.002 81)" fill="#3f3f3f" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Text object 2</tspan></text>
+        <rect id="Rectangle_147956" data-name="Rectangle 147956" width="349" height="34" transform="translate(0 64.258)" fill="#8438d0" opacity="0.097"/>
+        <g id="Group_67956" data-name="Group 67956" transform="translate(38 41)">
+          <rect id="Canvas-5" data-name="Canvas" width="13" height="13" fill="#c4c4c4" opacity="0"/>
+          <path id="Path_36672-2" data-name="Path 36672" d="M2.321,2A.321.321,0,0,0,2,2.321V4.25a.321.321,0,0,0,.321.321h.643a.321.321,0,0,0,.321-.321V3.286H5.857V9.714H4.893a.321.321,0,0,0-.321.321v.643A.321.321,0,0,0,4.893,11H8.107a.321.321,0,0,0,.321-.321v-.643a.321.321,0,0,0-.321-.321H7.143V3.286H9.714V4.25a.321.321,0,0,0,.321.321h.643A.321.321,0,0,0,11,4.25V2.321A.321.321,0,0,0,10.679,2Z" fill="#c4c4c4"/>
+        </g>
+        <text id="Text_object_1" data-name="Text object 1" transform="translate(59.002 51)" fill="#3f3f3f" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Text object 1</tspan></text>
+      </g>
+      <g id="remove_icon" data-name="remove icon" transform="translate(53 148)">
+        <g id="Ellipse_20223" data-name="Ellipse 20223" transform="translate(305 216)" fill="none" stroke="#8438d0" stroke-width="1">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <rect id="Rectangle_148025" data-name="Rectangle 148025" width="9" height="2" rx="0.5" transform="translate(308 223)" fill="#8438d0"/>
+      </g>
+      <g id="remove_icon-2" data-name="remove icon" transform="translate(53 116)">
+        <g id="Ellipse_20223-2" data-name="Ellipse 20223" transform="translate(305 216)" fill="none" stroke="#8438d0" stroke-width="1">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <rect id="Rectangle_148025-2" data-name="Rectangle 148025" width="9" height="2" rx="0.5" transform="translate(308 223)" fill="#8438d0"/>
+      </g>
+      <text id="Clear_List" data-name="Clear List" transform="translate(62 255)" fill="#8438d0" font-size="9" font-family="Helvetica"><tspan x="0" y="7">Clear List</tspan></text>
+      <g id="Group_68150" data-name="Group 68150" transform="translate(56 82)">
+        <g id="Group_68140" data-name="Group 68140" transform="translate(218 169)">
+          <g id="Ellipse_20261" data-name="Ellipse 20261" transform="translate(0)" fill="none" stroke="#8438d0" stroke-width="1">
+            <circle cx="9.536" cy="9.536" r="9.536" stroke="none"/>
+            <circle cx="9.536" cy="9.536" r="9.036" fill="none"/>
+          </g>
+          <path id="Path_36741" data-name="Path 36741" d="M10.615,6.311H7.635V3.331A.331.331,0,0,0,7.3,3H6.642a.331.331,0,0,0-.331.331v2.98H3.331A.331.331,0,0,0,3,6.642V7.3a.331.331,0,0,0,.331.331h2.98v2.98a.331.331,0,0,0,.331.331H7.3a.331.331,0,0,0,.331-.331V7.635h2.98a.331.331,0,0,0,.331-.331V6.642A.331.331,0,0,0,10.615,6.311Z" transform="translate(2.563 2.563)" fill="#8438d0"/>
+        </g>
+        <text id="Text" transform="translate(241 182)" fill="#747474" font-size="10" font-family="Helvetica"><tspan x="0" y="0">Add Text Object</tspan></text>
+      </g>
+      <g id="Group_72742" data-name="Group 72742" transform="translate(-1 -29)">
+        <path id="Rectangle_148185" data-name="Rectangle 148185" d="M0,0H348a2,2,0,0,1,2,2V33a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(49 213)" fill="#9c5ade"/>
+        <text id="EDITOR_LIST" data-name="EDITOR LIST" transform="translate(63 234)" fill="#fff" font-size="11" font-family="Helvetica"><tspan x="0" y="0">EDITOR LIST</tspan></text>
+        <path id="Path_61155" data-name="Path 61155" d="M0,0,4.843,4.843,0,9.686" transform="translate(362.081 233.132) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_72748" data-name="Group 72748" transform="translate(1 -762.5)">
+        <line id="Line_64" data-name="Line 64" x2="349" transform="translate(48.5 946)" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+        <line id="Line_63" data-name="Line 63" x2="349" transform="translate(48.5 899.5)" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+        <g id="Group_72741" data-name="Group 72741" transform="translate(0 637)">
+          <path id="Rectangle_148184" data-name="Rectangle 148184" d="M0,0H347a2,2,0,0,1,2,2V33a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(48 268)" fill="#f5f5f5"/>
+          <text id="progress" transform="translate(61 289)" fill="#707070" font-size="11" font-family="Helvetica"><tspan x="0" y="0">PROGRESS</tspan></text>
+          <path id="Path_36755" data-name="Path 36755" d="M0,9.686,4.843,4.843,0,0" transform="translate(364.502 280.868)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+      <circle id="Ellipse_20262" data-name="Ellipse 20262" cx="3.5" cy="3.5" r="3.5" transform="translate(121 148)" fill="#edc27f"/>
+      <g id="Group_68125" data-name="Group 68125" transform="translate(0 27)" opacity="0.602">
+        <g id="Group_68124" data-name="Group 68124" transform="translate(0 10)">
+          <rect id="Rectangle_148045" data-name="Rectangle 148045" width="262.838" height="71" rx="3" transform="translate(108 400)" fill="#f7f7f7"/>
+        </g>
+        <text id="Lorem_ipsum_dolor_sit_amet_meliore_minimum_accusata_te_qui_eum_tale_singulis_cu_ne_sed_tamquam_graecis._Te_verterem_sensibus_duo_posse_aliquid." data-name="Lorem ipsum dolor sit amet, meliore minimum accusata te qui, eum tale singulis cu, ne sed tamquam graecis. Te verterem sensibus duo, posse aliquid." transform="translate(118 420)" fill="#747474" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="9" font-family="Helvetica"><tspan x="0" y="7">Lorem ipsum dolor sit amet, meliore minimum accusata te </tspan><tspan x="0" y="22">qui, eum tale singulis cu, ne sed tamquam graecis. Te </tspan><tspan x="0" y="37">verterem sensibus duo, posse aliquid.</tspan></text>
+      </g>
+      <text id="Original_copy" data-name="Original copy" transform="translate(108.002 430)" fill="#8e8e8e" font-size="9" font-family="Helvetica"><tspan x="0" y="0">Original copy</tspan></text>
+      <g id="Button" transform="translate(278 659)">
+        <rect id="Placement_Area" data-name="Placement Area" width="83.011" height="22.421" fill="red" opacity="0"/>
+        <rect id="Background" width="83" height="22" rx="11" transform="translate(0)" fill="#8438d0"/>
+        <text id="Text-2" data-name="Text" transform="translate(20 15)" fill="#fff" font-size="10" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="0" y="0">Sync Copy</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

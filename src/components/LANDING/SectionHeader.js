@@ -94,7 +94,7 @@ export default function SectionHeader(props) {
               <></>
             )}
             <div
-              className="my-auto  pl-3"
+              className="my-auto  pl-1"
               style={{ whiteSpace: "no-wrap", zIndex: 1000 }}
             >
               <p className="section-title" style={{ display: "inline-block" }}>

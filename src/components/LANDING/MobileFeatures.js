@@ -9,7 +9,6 @@ export default function MobileDesigner({ data }) {
             <p className="p5 text-center">{item.title}</p>
             <p className="p4 margin-bottom-8 text-center">{item.text}</p>
             <img
-              srcSet={item.srcset}
               src={item.src}
               alt={item.alt}
               className="gif margin-bottom-4"

@@ -8,7 +8,7 @@ export default function WriterFeatures() {
         style={{ position: "relative" }}
       >
         <div className="contain-50 mx-auto">
-          <img className="gif" src="/artboard.png" alt="features backdrop" />
+          <img className="gif" src="/artboard.svg" alt="features backdrop" />
         </div>
         <div
           style={{
@@ -49,7 +49,7 @@ export default function WriterFeatures() {
               <Row style={{ height: "50%" }}>
                 <img
                   srcSet="/Oneclick.png,Oneclick@2x.png 2x"
-                  src="/Oneclick.png"
+                  src="/one click.svg"
                   alt="One click content"
                   className="gif"
                   style={{ marginLeft: "5vw", marginTop: "4vh" }}

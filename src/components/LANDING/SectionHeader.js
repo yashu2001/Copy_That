@@ -35,8 +35,8 @@ export default function SectionHeader(props) {
                       id="C"
                       transform="translate(93 204.5)"
                       fill="#f6f5f5"
-                      font-size="217"
-                      font-family="SegoeUI, Segoe UI"
+                      fontSize="217"
+                      fontFamily="SegoeUI, Segoe UI"
                     >
                       <tspan x="-67.177" y="0">
                         C
@@ -58,8 +58,8 @@ export default function SectionHeader(props) {
                       data-name="C"
                       transform="translate(93 204.5)"
                       fill="#f6f5f5"
-                      font-size="217"
-                      font-family="SegoeUI, Segoe UI"
+                      fontSize="217"
+                      fontFamily="SegoeUI, Segoe UI"
                     >
                       <tspan x="-67.177" y="0">
                         C

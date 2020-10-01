@@ -268,6 +268,7 @@ textarea {
 .margin-left-14 {
   margin-left: 14px !important;
 }
+/* Custom padding */
 .padding-left-152 {
   padding-left: 152px !important;
 }
@@ -303,6 +304,10 @@ textarea {
 .bolder {
   font-weight: bolder;
 }
+.highlight {
+  color: #b561e2;
+}
+/* Contact button css */
 .contact-btn {
   background-color: #ffffff !important;
   box-shadow: #efd356 16% !important;
@@ -328,9 +333,7 @@ textarea {
   margin-left: 2vw !important;
   margin-bottom: 2vh !important;
 }
-.highlight {
-  color: #b561e2;
-}
+
 /* Section Header */
 .section-header {
   background: transparent linear-gradient(280deg, #814cb4 0%, #ad74b7 100%) 0%
@@ -352,6 +355,11 @@ textarea {
 /* Accordion */
 .card-header {
   background-color: #ffffff !important;
+  border-bottom: none !important;
+}
+.card {
+  border-left: none !important;
+  border-right: none !important;
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {

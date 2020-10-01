@@ -31,34 +31,36 @@ export default function NAVBAR({ activatedLink }) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav className="nav-grp">
-              <Nav.Link className={activatedLink === "home" ? "active" : ""}>
-                <Link to="/">
-                  <span
-                    className={activatedLink === "home" ? "active-span" : ""}
-                  >
-                    HOME
-                  </span>
-                </Link>
+              <Nav.Link
+                as={Link}
+                to="/"
+                className={activatedLink === "home" ? "active" : ""}
+              >
+                <span className={activatedLink === "home" ? "active-span" : ""}>
+                  HOME
+                </span>
               </Nav.Link>
 
-              <Nav.Link className={activatedLink === "faq" ? "active" : ""}>
-                <Link to="/faq">
-                  <span
-                    className={activatedLink === "faq" ? "active-span" : ""}
-                  >
-                    FAQS
-                  </span>
-                </Link>
+              <Nav.Link
+                as={Link}
+                to="/faq"
+                className={activatedLink === "faq" ? "active" : ""}
+              >
+                <span className={activatedLink === "faq" ? "active-span" : ""}>
+                  FAQS
+                </span>
               </Nav.Link>
 
-              <Nav.Link className={activatedLink === "contact" ? "active" : ""}>
-                <Link to="/contact">
-                  <span
-                    className={activatedLink === "contact" ? "active-span" : ""}
-                  >
-                    CONTACT
-                  </span>
-                </Link>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                className={activatedLink === "contact" ? "active" : ""}
+              >
+                <span
+                  className={activatedLink === "contact" ? "active-span" : ""}
+                >
+                  CONTACT
+                </span>
               </Nav.Link>
             </Nav>
             <Nav>

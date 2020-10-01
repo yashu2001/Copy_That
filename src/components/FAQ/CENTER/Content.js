@@ -68,39 +68,41 @@ export default function Content() {
     return (
       <Accordion>
         {data.map((entry, idx) => (
-          <>
-            <Card>
-              <Accordion.Toggle as={Card.Header} eventKey={String(idx)}>
-                <Row>
-                  <Col xs={10} className="text-left">
-                    <p className="p1 bold">
-                      {entry.question.map((part) => {
-                        return part.highlight ? (
-                          <span className="highlight">{part.text}</span>
-                        ) : (
-                          part.text
-                        );
-                      })}
-                    </p>
-                  </Col>
-                  <Col xs={2} className="text-right">
-                    <ContextAwareToggle eventKey={String(idx)} />
-                  </Col>
-                </Row>
-              </Accordion.Toggle>
-              <Accordion.Collapse eventKey={String(idx)}>
-                <Card.Body>{entry.answer}</Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </>
+          <Card key={idx}>
+            <Accordion.Toggle as={Card.Header} eventKey={String(idx)}>
+              <Row>
+                <Col xs={10} className="text-left">
+                  <p className="p1 bold">
+                    {entry.question.map((part, idx) => {
+                      return part.highlight ? (
+                        <span className="highlight" key={idx}>
+                          {part.text}
+                        </span>
+                      ) : (
+                        part.text
+                      );
+                    })}
+                  </p>
+                </Col>
+                <Col xs={2} className="text-right">
+                  <ContextAwareToggle eventKey={String(idx)} />
+                </Col>
+              </Row>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey={String(idx)}>
+              <Card.Body>
+                <p className="p4">{entry.answer}</p>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
         ))}
       </Accordion>
     );
   }
   return (
     <>
-      {data.map((entry) => (
-        <div className="margin-top-56">
+      {data.map((entry, idx) => (
+        <div className="margin-top-56" key={idx}>
           <p className="p1 bold">
             {entry.question.map((part) => {
               return part.highlight ? (

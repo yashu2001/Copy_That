@@ -20,7 +20,7 @@ export default function RIGHT() {
         ) : (
           <></>
         )}
-        <h4 className={isMobile ? "text-center bold" : "bold"}>
+        <h4 className={isMobile ? "text-center" : ""}>
           <span className={isMobile ? "active-span-header" : ""}>Let's </span>
           Design Copy,Faster
         </h4>
@@ -28,7 +28,7 @@ export default function RIGHT() {
       <form className="margin-top-120">
         <Row className="justify-content-space-between">
           <Col md={5} xs={12}>
-            <label for="first-name" className="p1">
+            <label htmlFor="first-name" className="p1">
               First Name
             </label>
             <input
@@ -44,7 +44,7 @@ export default function RIGHT() {
             xs={12}
             className={isMobile ? "margin-top-80" : ""}
           >
-            <label for="last-name" className="p1">
+            <label htmlFor="last-name" className="p1">
               Last Name
             </label>
             <input
@@ -58,7 +58,7 @@ export default function RIGHT() {
         </Row>
         <Row className="justify-content-space-between margin-top-80">
           <Col md={5} xs={12}>
-            <label for="email" className="p1">
+            <label htmlFor="email" className="p1">
               Business Email
             </label>
             <input
@@ -92,7 +92,7 @@ export default function RIGHT() {
             xs={12}
             className={isMobile ? "margin-top-80" : ""}
           >
-            <label for="business-name" className="p1">
+            <label htmlFor="business-name" className="p1">
               Business Name
             </label>
             <input
@@ -106,7 +106,7 @@ export default function RIGHT() {
         </Row>
         <Row className="justify-content-space-between margin-top-80">
           <Col xs={12}>
-            <label for="message" className="p1">
+            <label htmlFor="message" className="p1">
               Message
             </label>
             <input

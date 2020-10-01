@@ -104,9 +104,11 @@ export default function Content() {
       {data.map((entry, idx) => (
         <div className="margin-top-56" key={idx}>
           <p className="p1 bold">
-            {entry.question.map((part) => {
+            {entry.question.map((part, idx) => {
               return part.highlight ? (
-                <span className="highlight">{part.text}</span>
+                <span className="highlight" key={idx}>
+                  {part.text}
+                </span>
               ) : (
                 part.text
               );

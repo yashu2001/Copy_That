@@ -39,7 +39,7 @@ export default function Hero() {
         </Col>
         <Col xs={6} className="pr-0">
           <img
-            srcset="/hero_img.png,
+            srcSet="/hero_img.png,
              hero_img@2x.png 2x"
             src="/hero_img.png"
             alt="Hero landing copythat show"

@@ -31,7 +31,7 @@ export default function Second() {
         </div>
       </Container>
       <div className="contain-90 mx-auto margin-top-56">
-        <Row>
+        <Row style={{ width: "100%" }}>
           <Col xs={12} sm={12} md={4} className="text-center">
             <img src="/design_icon.png" alt="design icon" />
             <p className="p4 mt-4">

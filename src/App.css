@@ -85,6 +85,11 @@ h6 {
   font-size: 16px !important;
   color: #444445 !important;
 }
+.p5 {
+  font-size: 19px !important;
+  color: #444445 !important;
+  margin-bottom: 8px !important;
+}
 .gradient-header {
   background: transparent
     linear-gradient(270deg, #562783 0%, #7a29c7 56%, #904ada 100%) 0% 0%
@@ -247,6 +252,9 @@ textarea {
   margin-top: -10vh;
 }
 /* Custom margin */
+.margin-top-36 {
+  margin-top: 36px !important;
+}
 .margin-top-120 {
   margin-top: 120px !important;
 }
@@ -270,6 +278,15 @@ textarea {
 }
 .margin-bottom-100 {
   margin-bottom: 100px !important;
+}
+.margin-bottom-36 {
+  margin-bottom: 36px !important;
+}
+.margin-bottom-8 {
+  margin-bottom: 8px !important;
+}
+.margin-bottom-4{
+  margin-bottom: 4px !important;
 }
 .margin-left-14 {
   margin-left: 14px !important;
@@ -373,7 +390,7 @@ textarea {
     width: 95% !important;
   }
   .contain-50 {
-    width: 65% !important;
+    width: 70% !important;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -398,7 +415,7 @@ textarea {
     width: 99% !important;
   }
   .contain-90 {
-    width: 98% !important;
+    width: 97% !important;
   }
   .margin-top-120 {
     margin-top: 32px !important;
@@ -408,6 +425,11 @@ textarea {
   }
   .margin-top-56 {
     margin-top: 20px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-title {
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 576px) {

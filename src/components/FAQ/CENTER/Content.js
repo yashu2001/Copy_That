@@ -72,7 +72,7 @@ export default function Content() {
             <Accordion.Toggle as={Card.Header} eventKey={String(idx)}>
               <Row>
                 <Col xs={10} className="text-left">
-                  <p className="p1 bold">
+                  <p className="p1 bold reset-margin">
                     {entry.question.map((part, idx) => {
                       return part.highlight ? (
                         <span className="highlight" key={idx}>

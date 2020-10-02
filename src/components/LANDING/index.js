@@ -9,6 +9,7 @@ import WriterFeatures from "./WriterFeatures";
 import DesignerFeatures from "./DesignerFeatures";
 import MobileFeatures from "./MobileFeatures";
 import { useMediaQuery } from "react-responsive";
+import { Button, Container } from "react-bootstrap";
 export default function Index() {
   const writer = [
     {
@@ -63,6 +64,23 @@ export default function Index() {
       <Navbar activatedLink="home" />
       {isMobile ? <></> : <Hero />}
       <Second />
+      {isMobile ? (
+        <Container
+          style={{
+            backgroundColor: "#F6F5F5",
+            height: "10vh",
+          }}
+          className="text-center"
+        >
+          <Button size="sm" className="primary-button">
+            <span style={{ paddingLeft: 20, paddingRight: 20 }}>
+              REQUEST DEMO
+            </span>
+          </Button>
+        </Container>
+      ) : (
+        <></>
+      )}
       <SectionHeader title="Writers" />
       {isTab ? (
         <MobileFeatures data={writer} />

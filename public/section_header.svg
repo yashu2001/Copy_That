@@ -1,0 +1,59 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="214"
+                height="288"
+                viewBox="0 0 214 288"
+                className="my-auto"
+              >
+                <g
+                  id="Group_442"
+                  data-name="Group 442"
+                  transform="translate(0 29.5)"
+                >
+                  <g id="Group_65" data-name="Group 65">
+                    <circle
+                      id="Ellipse_20"
+                      data-name="Ellipse 20"
+                      cx="107"
+                      cy="107"
+                      r="107"
+                      transform="translate(0 23.5)"
+                      fill="rgba(144,74,212,0.4)"
+                    />
+                    <text
+                      id="C"
+                      transform="translate(93 204.5)"
+                      fill="#f6f5f5"
+                      font-size="217"
+                      font-family="SegoeUI, Segoe UI"
+                    >
+                      <tspan x="-67.177" y="0">
+                        C
+                      </tspan>
+                    </text>
+                  </g>
+                  <g id="Group_467" data-name="Group 467">
+                    <circle
+                      id="Ellipse_20-2"
+                      data-name="Ellipse 20"
+                      cx="107"
+                      cy="107"
+                      r="107"
+                      transform="translate(0 23.5)"
+                      fill="rgba(144,74,212,0.4)"
+                    />
+                    <text
+                      id="C-2"
+                      data-name="C"
+                      transform="translate(93 204.5)"
+                      fill="#f6f5f5"
+                      font-size="217"
+                      font-family="SegoeUI, Segoe UI"
+                    >
+                      <tspan x="-67.177" y="0">
+                        C
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>

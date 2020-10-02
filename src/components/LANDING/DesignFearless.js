@@ -24,28 +24,44 @@ export default function Second() {
             DESIGN COPY. FASTER. TOGETHER.
           </h5>
           <p className="p1 ml-4 text-center letter-space-36">
-            CopyThat is a Copy Visualization and Handoff tool for writers and
-            designers to collaborate in real-time allowing for seamless edits,
-            faster feedback, and more efficient design.
+            <span style={{ color: "#904ad4" }}>CopyThat</span> is a Copy
+            Visualization and Handoff tool for writers and designers to
+            collaborate in real-time allowing for seamless edits, faster
+            feedback, and more efficient design.
           </p>
         </div>
       </Container>
       <div className="contain-90 mx-auto margin-top-56">
-        <Row style={{ width: "100%" }}>
-          <Col xs={12} sm={12} md={4} className="text-center">
+        <Row className="full-width">
+          <Col
+            xs={{ span: 8, offset: 2 }}
+            sm={{ span: 8, offset: 2 }}
+            md={{span:4,offset:0}}
+            className="text-center"
+          >
             <img src="/design_icon.svg" alt="design icon" />
             <p className="p4 mt-4">
               Lessen the concern of accidentally altering the design’s layout.
             </p>
           </Col>
-          <Col xs={12} sm={12} md={4} className="text-center">
+          <Col
+            xs={{ span: 8, offset: 2 }}
+            sm={{ span: 8, offset: 2 }}
+            md={{span:4,offset:0}}
+            className="text-center"
+          >
             <img src="/vc_icon.svg" alt="design icon" />
             <p className="p4 mt-4">
               Reduces the need for multiple saved versions of projects cutting
               down on confusion and file clutter.
             </p>
           </Col>
-          <Col xs={12} sm={12} md={4} className="text-center">
+          <Col
+            xs={{ span: 8, offset: 2 }}
+            sm={{ span: 8, offset: 2 }}
+            md={{span:4,offset:0}}
+            className="text-center"
+          >
             <img src="/handoff_icon.svg" alt="design icon" />
             <p className="p4 mt-4">
               Eliminate the need for copy/paste and the tedious cycle of revise

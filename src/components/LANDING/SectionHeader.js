@@ -4,70 +4,26 @@ import { useMediaQuery } from "react-responsive";
 export default function SectionHeader(props) {
   const isMobile = useMediaQuery({ query: "(max-width: 500px)" });
   return (
-    <div className="section-header margin-top-120">
+    <div
+      className={isMobile ? "section-header" : "section-header margin-top-120"}
+    >
       <Container>
         <div className="contain-50 mx-auto">
           <Row>
-            <Col xs={5} md={4} className="my-auto" style={{ zIndex: 100 }}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="214"
-                height="288"
-                viewBox="0 0 214 288"
-                className="my-auto"
-              >
-                <g
-                  id="Group_442"
-                  data-name="Group 442"
-                  transform="translate(0 29.5)"
-                >
-                  <g id="Group_65" data-name="Group 65">
-                    <circle
-                      id="Ellipse_20"
-                      data-name="Ellipse 20"
-                      cx="107"
-                      cy="107"
-                      r="107"
-                      transform="translate(0 23.5)"
-                      fill="rgba(144,74,212,0.4)"
-                    />
-                    <text
-                      id="C"
-                      transform="translate(93 204.5)"
-                      fill="#f6f5f5"
-                      fontSize="217"
-                      fontFamily="SegoeUI, Segoe UI"
-                    >
-                      <tspan x="-67.177" y="0">
-                        C
-                      </tspan>
-                    </text>
-                  </g>
-                  <g id="Group_467" data-name="Group 467">
-                    <circle
-                      id="Ellipse_20-2"
-                      data-name="Ellipse 20"
-                      cx="107"
-                      cy="107"
-                      r="107"
-                      transform="translate(0 23.5)"
-                      fill="rgba(144,74,212,0.4)"
-                    />
-                    <text
-                      id="C-2"
-                      data-name="C"
-                      transform="translate(93 204.5)"
-                      fill="#f6f5f5"
-                      fontSize="217"
-                      fontFamily="SegoeUI, Segoe UI"
-                    >
-                      <tspan x="-67.177" y="0">
-                        C
-                      </tspan>
-                    </text>
-                  </g>
-                </g>
-              </svg>
+            <Col
+              xs={{ span: 4, offset: 2 }}
+              md={{ span: 4, offset: 0 }}
+              className="my-auto"
+              style={{ zIndex: 100 }}
+            >
+              <img
+                src={
+                  isMobile
+                    ? "/section_header_mobile.svg"
+                    : "/section_header.svg"
+                }
+                alt="section header"
+              />
             </Col>
             {!isMobile ? (
               <Col
@@ -94,10 +50,15 @@ export default function SectionHeader(props) {
               <></>
             )}
             <div
-              className="my-auto  pl-1"
+              className={
+                isMobile ? "my-auto position-overlay" : "my-auto  pl-1"
+              }
               style={{ whiteSpace: "no-wrap", zIndex: 1000 }}
             >
-              <p className="section-title" style={{ display: "inline-block" }}>
+              <p
+                className="section-title bold"
+                style={{ display: "inline-block" }}
+              >
                 {props.title}
               </p>
               <img

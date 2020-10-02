@@ -6,7 +6,7 @@ export default function MobileDesigner({ data }) {
       {data.map((item, idx) => {
         return (
           <div className="margin-bottom-36" key={idx}>
-            <p className="p5 text-center">{item.title}</p>
+            <p className="p5 text-center bold">{item.title}</p>
             <p className="p4 margin-bottom-8 text-center">{item.text}</p>
             <img
               src={item.src}

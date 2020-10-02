@@ -59,6 +59,7 @@ h3 {
 h4 {
   font-size: 40px !important;
   color: #632e96 !important;
+  font-weight: 300 !important;
 }
 h5 {
   font-size: 40px !important;
@@ -70,7 +71,7 @@ h6 {
   color: #444445 !important;
 }
 .p1 {
-  font-size: 18px !important;
+  font-size: 19px !important;
   color: #444445 !important;
 }
 .p2 {
@@ -319,6 +320,12 @@ textarea {
   margin-top: 20vh !important;
 }
 /* Utilities */
+.reset-margin {
+  margin: 0 !important;
+}
+.reset-padding {
+  padding: 0 !important;
+}
 .full-height {
   height: 100%;
 }
@@ -353,7 +360,7 @@ textarea {
   font-weight: bold;
 }
 .bolder {
-  font-weight: bolder;
+  font-weight: bolder !important;
 }
 .highlight {
   color: #b561e2;
@@ -364,6 +371,7 @@ textarea {
   box-shadow: #efd356 16% !important;
   border-color: #efd356 !important;
   border-radius: 3px;
+  border-width: 4px;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -427,6 +435,10 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
+  .primary-button {
+    margin: 0 !important;
+    margin-top: 3vh !important;
+  }
   h1 {
     font-size: 50px !important;
   }
@@ -435,6 +447,9 @@ textarea {
   }
   h4 {
     font-size: 24px !important;
+  }
+  h5 {
+    font-size: 19px !important;
   }
   .contain-65 {
     width: 95% !important;
@@ -458,6 +473,15 @@ textarea {
 @media screen and (max-width: 576px) {
   .section-title {
     font-size: 32px;
+  }
+  .position-overlay {
+    padding: 0 !important;
+    margin-left: -15vw;
+    padding-bottom: 2vh !important;
+  }
+  .p1 {
+    font-size: 13px !important;
+    color: #444445 !important;
   }
 }
 @media screen and (min-width: 576px) {

@@ -19,16 +19,16 @@ export default function Second() {
           <span style={{ color: "#904ad4" }}>Design </span>
           <span className="gradient-header">Fearlessly</span>
         </h1>
-        <div className="contain-65 mx-auto">
+        <div className="contain-65 mx-auto text-center">
           <h5 className="margin-top-120 bolder text-center">
             DESIGN COPY. FASTER. TOGETHER.
           </h5>
-          <p className="p1 ml-4 text-center letter-space-36">
+          <p className="p1 text-center letter-space-36">
             <span style={{ color: "#904ad4" }}>CopyThat</span> is a{" "}
             <span className="bold">Copy Visualization</span> and{" "}
-            <span className="bold">Handoff tool</span>{" "}
-            for writers and designers to collaborate in real-time allowing for
-            seamless edits, faster feedback, and more efficient design.
+            <span className="bold">Handoff tool</span> for writers and designers
+            to collaborate in real-time allowing for seamless edits, faster
+            feedback, and more efficient design.
           </p>
         </div>
       </Container>

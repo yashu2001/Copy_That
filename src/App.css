@@ -371,8 +371,8 @@ textarea {
   border-color: #efd356 !important;
   border-radius: 3px;
   border-width: 4px;
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .contact-btn:hover {
   background-color: #efd356 !important;

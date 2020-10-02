@@ -20,14 +20,15 @@ export default function Second() {
           <span className="gradient-header">Fearlessly</span>
         </h1>
         <div className="contain-65 mx-auto">
-          <h5 className="margin-top-120 bolder">
+          <h5 className="margin-top-120 bolder text-center">
             DESIGN COPY. FASTER. TOGETHER.
           </h5>
           <p className="p1 ml-4 text-center letter-space-36">
-            <span style={{ color: "#904ad4" }}>CopyThat</span> is a Copy
-            Visualization and Handoff tool for writers and designers to
-            collaborate in real-time allowing for seamless edits, faster
-            feedback, and more efficient design.
+            <span style={{ color: "#904ad4" }}>CopyThat</span> is a{" "}
+            <span className="bold">Copy Visualization</span> and{" "}
+            <span className="bold">Handoff tool</span>{" "}
+            for writers and designers to collaborate in real-time allowing for
+            seamless edits, faster feedback, and more efficient design.
           </p>
         </div>
       </Container>
@@ -36,7 +37,7 @@ export default function Second() {
           <Col
             xs={{ span: 8, offset: 2 }}
             sm={{ span: 8, offset: 2 }}
-            md={{span:4,offset:0}}
+            md={{ span: 4, offset: 0 }}
             className="text-center"
           >
             <img src="/design_icon.svg" alt="design icon" />
@@ -47,7 +48,7 @@ export default function Second() {
           <Col
             xs={{ span: 8, offset: 2 }}
             sm={{ span: 8, offset: 2 }}
-            md={{span:4,offset:0}}
+            md={{ span: 4, offset: 0 }}
             className="text-center"
           >
             <img src="/vc_icon.svg" alt="design icon" />
@@ -59,7 +60,7 @@ export default function Second() {
           <Col
             xs={{ span: 8, offset: 2 }}
             sm={{ span: 8, offset: 2 }}
-            md={{span:4,offset:0}}
+            md={{ span: 4, offset: 0 }}
             className="text-center"
           >
             <img src="/handoff_icon.svg" alt="design icon" />

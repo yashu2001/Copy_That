@@ -107,6 +107,8 @@ textarea {
   border: none;
   border-bottom: 2px solid #c7c5c7;
   width: 100% !important;
+  border-radius: 0 !important;
+  -webkit-appearance: none !important;
 }
 input:focus,
 textarea:focus {
@@ -198,10 +200,7 @@ textarea {
   margin-top: -20px !important;
 }
 .super::before {
-  content: "<";
-  color: #707070 !important;
-  font-size: larger;
-  font-weight: bolder;
+  content: url("/back.svg");
 }
 .navbar-toggler-icon {
   background-image: url("/Hamburger icon.svg") !important;

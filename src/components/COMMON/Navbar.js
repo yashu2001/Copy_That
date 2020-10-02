@@ -1,15 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import { Navbar, Nav, Button, Col, Row } from "react-bootstrap";
+import { useMediaQuery } from "react-responsive";
+import Drawer from "@material-ui/core/Drawer";
 export default function NAVBAR({ activatedLink }) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const isTime = useMediaQuery({ query: "(max-width:1000px)" });
+  const navLinks = [
+    {
+      icon: "/Home iocn.svg",
+      text: "Home",
+      link: "/",
+    },
+    {
+      icon: "/Chat icon.svg",
+      text: "Contact us",
+      link: "/contact",
+    },
+    {
+      icon: "/Info icon.svg",
+      text: "FAQs",
+      link: "/faq",
+    },
+  ];
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        className="justify-content-between shadow"
-      >
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar collapseOnSelect expand="lg" className="shadow">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={(event) => {
+            event.preventDefault();
+            setDrawerOpen(true);
+          }}
+        />
         <Link to="/">
           <Navbar.Brand>
             <svg
@@ -28,7 +51,9 @@ export default function NAVBAR({ activatedLink }) {
             </svg>
           </Navbar.Brand>
         </Link>
-        <Navbar.Collapse id="responsive-navbar-nav">
+        {isTime ? (
+          <></>
+        ) : (
           <Nav className="ml-auto">
             <Nav className="nav-grp">
               <Nav.Link
@@ -71,8 +96,81 @@ export default function NAVBAR({ activatedLink }) {
               </Link>
             </Nav>
           </Nav>
-        </Navbar.Collapse>
+        )}
       </Navbar>
+      <Drawer
+        anchor="left"
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+      >
+        <Row className="full-width pmargin-top-5">
+          <Col xs={{ span: 2, offset: 10 }}>
+            <img
+              src="/close.svg"
+              alt="close btn"
+              onClick={() => setDrawerOpen(false)}
+            />
+          </Col>
+        </Row>
+        <Row className="pmargin-top-10 full-width rule-below">
+          <Col xs={{ span: 11, offset: 1 }}>
+            <img src="/Logo 1.svg" alt="logo" />
+          </Col>
+        </Row>
+        {navLinks.map((item, idx) => {
+          return (
+            <Row className="pmargin-top-5 full-width" key={idx}>
+              <Col xs={{ span: 2, offset: 1 }}>
+                <Link to={item.link}>
+                  <img
+                    src={item.icon}
+                    alt={item.text}
+                    style={{ display: "inline" }}
+                  />
+                </Link>
+              </Col>
+              <Col xs={9} className="push-me-down">
+                <Link to={item.link} className="full-width">
+                  <p className="p4" style={{ display: "inline" }}>
+                    {item.text}
+                  </p>
+                </Link>
+              </Col>
+            </Row>
+          );
+        })}
+        <Row className="pmargin-top-20 full-width">
+          <Col className="mx-auto">
+            <Button
+              size="sm"
+              className="primary-button full-width"
+              style={{ paddingLeft: 20, paddinRight: 20 }}
+            >
+              REQUEST DEMO
+            </Button>
+          </Col>
+        </Row>
+        <Row className="full-width pmargin-top-5">
+          <Col xs={{ span: 3, offset: 3 }}>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/fb.svg" alt="fb icon" />
+            </a>
+          </Col>
+          <Col xs={{ span: 3 }}>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/insta.svg" alt="fb icon" />
+            </a>
+          </Col>
+        </Row>
+      </Drawer>
     </>
   );
 }

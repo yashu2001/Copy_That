@@ -291,6 +291,9 @@ textarea {
 .margin-bottom-36 {
   margin-bottom: 36px !important;
 }
+.margin-top-8 {
+  margin-top: 8px !important;
+}
 .margin-bottom-8 {
   margin-bottom: 8px !important;
 }
@@ -483,7 +486,7 @@ textarea {
     color: #444445 !important;
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .section-header.margin-top-120 > .container {
     max-width: 90vw !important;
   }

@@ -91,7 +91,7 @@ export default function NAVBAR({ activatedLink }) {
             <Nav>
               <Link to="/">
                 <Button size="sm" className="primary-button">
-                  REQUEST DEMO NOW
+                  REQUEST DEMO
                 </Button>
               </Link>
             </Nav>

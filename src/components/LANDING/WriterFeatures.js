@@ -28,7 +28,6 @@ export default function WriterFeatures() {
             </Col>
             <Col xs={3} className="full-height">
               <img
-                srcSet="/EditorList.png,EditorList@2x.png 2x"
                 src="/EditorList.png"
                 className="gif"
                 alt="editor list"
@@ -40,7 +39,6 @@ export default function WriterFeatures() {
             >
               <Row style={{ height: "50%" }}>
                 <img
-                  srcSet="/writerDraft.png,writerDraft@2x.png 2x"
                   src="/writerDraft.png"
                   alt="writers draft"
                   className="gif"
@@ -48,7 +46,6 @@ export default function WriterFeatures() {
               </Row>
               <Row style={{ height: "50%" }}>
                 <img
-                  srcSet="/Oneclick.png,Oneclick@2x.png 2x"
                   src="/one click.svg"
                   alt="One click content"
                   className="gif"

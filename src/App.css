@@ -370,9 +370,9 @@ textarea {
 /* Contact button css */
 .contact-btn {
   background-color: #ffffff !important;
-  box-shadow: #efd356 16% !important;
-  border-color: #efd356 !important;
-  border-radius: 3px;
+  box-shadow: 0px 1px 2px #00000029;
+  border: 3px solid #efd356;
+  border-radius: 4px;
   border-width: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
